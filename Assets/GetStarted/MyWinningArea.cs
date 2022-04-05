@@ -1,8 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MyDecreaseHealth : MonoBehaviour
+public class MyWinningArea : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -15,12 +16,12 @@ public class MyDecreaseHealth : MonoBehaviour
     {
         
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
-            Debug.Log("player touched;");
-            //your logic
+            Debug.Log("you won!");
         }
     }
 }

@@ -4,15 +4,12 @@ using UnityEngine;
 
 public class MyUnitHealth : MonoBehaviour
 {
+    public int Health { get; set; }
     // Start is called before the first frame update
     void Start()
-    {
-        
-    }
+    { }
 
     // Update is called once per frame
     void Update()
-    {
-        
-    }
+    { }
 }
